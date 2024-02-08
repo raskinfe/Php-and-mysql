@@ -1,0 +1,16 @@
+{
+  "name": "web-application-with-database-kinfemichaeldesse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@mygit.th-deg.de:kd26759/web-application-with-database-kinfemichaeldesse.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

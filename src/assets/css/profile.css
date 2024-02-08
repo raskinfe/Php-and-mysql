@@ -1,0 +1,103 @@
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    background: #f5f5f5;
+    border-radius: 4px;
+    box-shadow: 0 0 1px 2px #d7dbde;
+    gap: 10px;
+}
+
+.profile-item {
+    min-width: 400px;
+    background: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+}
+.profile-item span {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-right: auto;
+}
+
+.fa-edit{
+    color: #1f4928;
+    cursor: pointer;
+}
+.form-items .fa-check {
+    color: #1f4928;
+    cursor: pointer;
+}
+
+.fa-edit:hover {
+    color: #23bd16;
+}
+
+.form-items .fa-check:hover {
+    color: #23bd16;
+}
+.btn {
+    display: flex;
+}
+.avatar{
+    max-width: 400px;
+    display: flex;
+    height: max-content;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;
+}
+.avatar img {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin-bottom: 8px;
+}
+.avatar .fa {
+    align-self: center;
+}
+
+.offers-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: #f5f5f5;
+    border-radius: 4px;
+    box-shadow: 0 0 1px 2px #d7dbde;
+    gap: 10px;
+    height: max-content;
+}
+
+.middle {
+    display: flex;
+    gap: 20px;
+}
+
+.offer {
+    background-color: #fff;
+    padding: 10px 20px;
+    width: 100%;
+    border-radius: 4px;
+    display: grid;
+    gap: 12px;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.offer .--action{
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+
+.offer .--action .fa-edit{
+    cursor: pointer;
+    color: #1f4928;
+}
+
+.offer .--action .fa-trash{
+    cursor: pointer;
+    color: crimson;
+}
